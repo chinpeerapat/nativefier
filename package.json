@@ -1,6 +1,6 @@
 {
   "name": "nativefier",
-  "version": "53.0.0",
+  "version": "53.0.1",
   "description": "Wrap web apps natively",
   "license": "MIT",
   "author": "Goh Jia Hao",
@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "@electron/asar": "^3.2.4",
-    "axios": "^1.4.0",
+    "axios": "^1.6.3",
     "electron-packager": "^17.1.1",
     "fs-extra": "^11.1.1",
     "gitcloud": "^0.2.4",
@@ -84,7 +84,7 @@
     "@types/yargs": "^17.0.24",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
-    "electron": "^25.7.0",
+    "electron": "^28.1.0",
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",

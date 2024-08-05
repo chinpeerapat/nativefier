@@ -58,8 +58,6 @@ gen
 # Builds when testing npm pack
 nativefier*.tgz
 
-.vscode
-
 # https://github.com/nektos/act
 .actrc
 

@@ -99,7 +99,10 @@ export function onNewWindowHelper(
       );
       return { action: 'deny' };
     }
-    return { action: 'allow' };
+    return {
+      action: 'allow',
+      overrideBrowserWindowOptions: { autoHideMenuBar: options.autoHideMenuBar },
+    };
   } catch (err: unknown) {
     return { action: 'deny' };
   }

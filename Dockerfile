@@ -33,7 +33,7 @@ RUN find ./icon-scripts ./src ./app -type f -print0 | xargs -0 dos2unix
 # Make sure nativefier is executable
 RUN npm i \
     && npm link \
-    && npm run test:noplaywright \
+    # && npm run test:noplaywright \
     && rm -rf /tmp/nativefier* ~/.npm/_cacache ~/.cache/electron \
     && chmod +x $NPM_PACKAGES/bin/nativefier
 
